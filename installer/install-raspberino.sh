@@ -48,7 +48,7 @@ wget https://raw.githubusercontent.com/4-3is4-me/RaspberinoServer/master/install
 sudo chmod 755 /etc/init.d/RaspberInoServer
 
 # add to startup
-update-rc.d RaspberInoServer defaults
+update-rc0.d RaspberInoServer defaults
 
 # start now
 /etc/init.d/RaspberInoServer stop # stop if running (when updated)
