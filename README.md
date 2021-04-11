@@ -1,15 +1,12 @@
-****
 Planned work by 4-3is4-me
-****
-Update readme - install instructions and installer do not work, broken links.
-Change 1 : Update spelling error in installer script.
-Change 2 : Have installer change file permissions.
+Update readme - install instructions and installer do not work, broken links. DONE
+Change 1 : Update spelling error in installer script.DONE
+Change 2 : Have installer change file permissions and add to /etc/rc0.d. DONE
 Change 3 : Create new installer for server to be run as needed from cli rather than running from start up.
 
 Prefered options but uncertain if achievable.
 Option 1 : Use BCM pins.
 OPtion 2 : Make use of all GPIO - currently only works 1-26, believe this is app side not pi side.
-
 
 # RaspberryPiServer
 
