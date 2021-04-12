@@ -43,7 +43,9 @@ mkdir -p /etc/RaspberIno
 echo "port=10000" > /etc/RaspberIno/config.cfg
 
 # download init.d script
-wget https://raw.githubusercontent.com/Catrobat/RaspberinoServer/master/installer/RaspberinoServer -O /etc/init.d/RaspberinoServer
+wget https://raw.githubusercontent.com/Catrobat/RaspberinoServer/master/installer/RaspberinoServer -O /etc/init.d/RaspberInoServer
+# change file permissions
+chmod 755 /etc/init.d/RaspberInoServer
 
 # add to startup
 update-rc.d RaspberInoServer defaults
