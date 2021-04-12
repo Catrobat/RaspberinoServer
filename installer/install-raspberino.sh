@@ -36,14 +36,14 @@ done
 
 # download python server
 echo "downloading RaspberinoServer..."
-wget https://raw.githubusercontent.com/4-3is4-me/RaspberinoServer/master/RaspberInoServer.py -O /usr/local/bin/RaspberInoServer.py
+wget https://raw.githubusercontent.com/Catrobat/RaspberinoServer/master/RaspberInoServer.py -O /usr/local/bin/RaspberInoServer.py
 
 # configure port
 mkdir -p /etc/RaspberIno
 echo "port=10000" > /etc/RaspberIno/config.cfg
 
 # download init.d script
-wget https://raw.githubusercontent.com/4-3is4-me/RaspberinoServer/master/installer/RaspberinoServer -O /etc/init.d/RaspberInoServer
+wget https://raw.githubusercontent.com/Catrobat/RaspberinoServer/master/installer/RaspberinoServer -O /etc/init.d/RaspberInoServer
 # change file permissions
 chmod 755 /etc/init.d/RaspberInoServer
 
