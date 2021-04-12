@@ -45,7 +45,7 @@ echo "port=10000" > /etc/RaspberIno/config.cfg
 # download init.d script
 wget https://raw.githubusercontent.com/4-3is4-me/RaspberinoServer/master/installer/RaspberinoServer -O /etc/init.d/RaspberInoServer
 # change file permissions
-sudo chmod 755 /etc/init.d/RaspberInoServer
+chmod 755 /etc/init.d/RaspberInoServer
 
 # add to startup
 update-rc0.d RaspberInoServer defaults
