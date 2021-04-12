@@ -9,7 +9,9 @@ Installer will set RaspberInoServer to run on start up.
 1. Download installer, download will save installer script to the current directory.
 
 ``wget https://raw.githubusercontent.com/Catrobat/RaspberinoServer/master/installer/install-raspberino.sh -O install-raspberino.sh``
-2. run installer as root
+
+2. run installer as root.
+
 `` sudo sh install-raspberino.sh``
 
 # License #
