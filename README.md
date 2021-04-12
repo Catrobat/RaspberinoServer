@@ -8,7 +8,7 @@ The aim of this sub-project is to allow Pocket Code to control a RaspberryPi rem
 Instructions for installing and using a Raspberry Pi with Pocket Code can be cound at [catrob.at/RaspberryPi](https://catrob.at/RaspberryPi). But in a nutshell:
 
 1. Download installer
-``wget https://raw.githubusercontent.com/Catrobat/RaspbeinoServer/master/installer/install-raspberino.sh -O istall raspberino.sh
+``wget https://raw.githubusercontent.com/Catrobat/RaspbeinoServer/master/installer/install-raspberino.sh -O istall raspberino.sh``
 2. run installer as root
 `` sudo sh install-raspberino.sh``
 
